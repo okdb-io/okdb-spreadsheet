@@ -11,14 +11,14 @@ $ npm install okdb-spreadsheet --save
 
 ## Usage
 
-1. Import main component and styles into your project:
+1.  Import main component and styles into your project:
 
 ```javascript
 import OkdbSpreadsheet from 'okdb-spreadsheet';
 import "okdb-spreadsheet/lib/styles.css";
 ```
 
-1. Prepare your data for the spreadsheet:
+2. Prepare your data for the spreadsheet:
 
 ```javascript
 const data = [
@@ -49,7 +49,7 @@ const data = [
 ];
 ```
 
-1. Include the Spreadsheet component.
+3. Include the Spreadsheet component.
 
 ```javascript
 <OkdbSpreadsheet
