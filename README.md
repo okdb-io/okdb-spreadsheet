@@ -1,5 +1,5 @@
 # Okdb Spreadsheet
-React Spreadsheet Component with support for realtime multiuser collaboration. Integrates well with [okdb](https://okdb.io/) and includes multi-user collaboration features.
+React Spreadsheet Component with support for multiuser collaboration in realtime. Integrates well with [okdb](https://okdb.io/) and includes multi-user collaboration features.
 
 ## Installation
 
