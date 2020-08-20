@@ -40,7 +40,7 @@ export default class Cell extends PureComponent {
     let styles = style;
     if (selections && selections.length > 0) {
       const otherSelection = getSelection(selections, row, col);
-      if (!selected && otherSelection) {
+      if (!selected && otherSelection && otherSelection.color) {
         const RGB = otherSelection.color;
         const A = '0.15';
         const RGBA =
